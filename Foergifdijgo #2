@@ -1,1 +1,7 @@
-
+game.Players.LocalPlayer.PlayerGui.Menew.Enabled = false
+game.Players.LocalPlayer.PlayerGui.GUI.Enabled = true
+game.Players.LocalPlayer.PlayerGui.GUI.TeamSelection.Visible = false
+game.Players.LocalPlayer.PlayerGui.GUI.BottomFrame.Visible = false
+game.Players.LocalPlayer.PlayerGui.GUI.Interface.Visible = true
+wait(1)
+game.ReplicatedStorage.Events.JoinTeam:FireServer("TPC\0")
