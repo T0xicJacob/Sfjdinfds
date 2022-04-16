@@ -1,0 +1,8 @@
+--Antagonist Charged#6185
+
+--FE Kill Effect (Ultra Rare)
+
+game:GetService("TeleportService"):Teleport(4690140579, game.Players.LocalPlayer, {
+    SuperSecretCode = "NotSoSuperSecretPoggyWoggy"
+});
+
